@@ -12,7 +12,7 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <section id="reviews" className="bg-basalt-light py-20">
+    <section id="reviews" className="bg-basalt-light py-12 sm:py-20">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">What riders say</p>
@@ -20,7 +20,7 @@ export default function Testimonials() {
         </Reveal>
 
         <Reveal delay={100}>
-          <div className="mt-10 relative min-h-[160px]">
+          <div className="mt-10 relative min-h-[200px] sm:min-h-[180px]">
             {testimonials.map((t, i) => (
               <div
                 key={i}
@@ -35,7 +35,7 @@ export default function Testimonials() {
             ))}
           </div>
 
-          <div className="mt-6 flex justify-center gap-2">
+          <div className="mt-10 sm:mt-8 flex justify-center gap-2">
             {testimonials.map((_, i) => (
               <button
                 key={i}

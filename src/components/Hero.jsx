@@ -18,7 +18,7 @@ export default function Hero() {
             {site.tagline}
           </h1>
           <p className="mt-5 text-sandstone-dim text-base sm:text-lg max-w-md">
-            Local rides, outstation drops and airport transfers across {site.cityShort} —
+            Local rides, outstation round trips and airport transfers across {site.cityShort} —
             booked in a message, confirmed in minutes.
           </p>
 

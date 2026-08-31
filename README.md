@@ -15,13 +15,14 @@ npm run dev       # opens a local preview, auto-reloads on save
 npm run build     # outputs production files to /dist
 ```
 
-## 3. Make the enquiry form email you — free
-The form uses [Web3Forms](https://web3forms.com), free, no signup beyond verifying an email:
-1. Go to web3forms.com, enter the email you want enquiries sent to, get an **access key**.
-2. Copy `.env.example` to `.env` and paste the key into `VITE_WEB3FORMS_KEY`.
-3. Rebuild (`npm run build`). Free tier covers ~250 submissions/month — plenty for a small business; if you outgrow it, EmailJS or Formspree work as drop-in alternatives.
+## 3. Enquiries go straight to WhatsApp
+The enquiry form opens WhatsApp pre-filled with the visitor's trip details — no email
+key or third-party service required. The WhatsApp number is the one configured in
+`src/config/site.js` (`WHATSAPP_NUMBER`, digits only, country code first).
 
-Until you add a key, the form still works — it opens the visitor's email app pre-filled with their enquiry, addressed to you.
+If you ever want to route enquiries somewhere else, swap the `window.open(...)` call in
+`EnquiryForm.jsx` — e.g. a Web3Forms POST, an EmailJS send, or an EmailJS/Formspree
+endpoint — and the rest of the form still works as-is.
 
 ## 4. Deploy for free
 Any static host works since this builds to plain HTML/CSS/JS:

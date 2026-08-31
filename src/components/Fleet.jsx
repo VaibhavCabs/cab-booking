@@ -5,16 +5,13 @@ import Reveal from './Reveal'
 
 export default function Fleet() {
   return (
-    <section id="fleet" className="bg-basalt py-20">
+    <section id="fleet" className="bg-basalt py-12 sm:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">Our fleet</p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-sandstone max-w-lg">
             A vehicle for every trip, from a solo errand to a group pilgrimage.
           </h2>
-          <p className="text-xs text-sandstone-dim/70 mt-3">
-            Sample starting rates shown — confirm exact fare for your route on WhatsApp.
-          </p>
         </Reveal>
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -32,10 +29,6 @@ export default function Fleet() {
                 </div>
 
                 <div className="mt-5 flex items-end justify-between">
-                  <p className="text-sandstone">
-                    <span className="font-display text-2xl font-semibold">₹{car.rate}</span>
-                    <span className="text-xs text-sandstone-dim">/km*</span>
-                  </p>
                   <a
                     href={waLink(`Hi ${site.name}, I'd like to book the ${car.name}.`)}
                     target="_blank"

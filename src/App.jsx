@@ -19,12 +19,12 @@ export default function App() {
       </a>
       <TopBar />
       <Navbar />
-      <main>
+      <main className="pb-24 sm:pb-0">
         <Hero />
-        <WhyChooseUs />
         <Fleet />
         <Destinations />
         <RoutesExplorer />
+        <WhyChooseUs />
         <Testimonials />
         <EnquiryForm />
         <FAQ />

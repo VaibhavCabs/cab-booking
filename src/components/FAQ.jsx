@@ -19,7 +19,7 @@ function FaqItem({ faq, isOpen, onToggle }) {
       </button>
       <div
         className={`overflow-hidden transition-[max-height] duration-300 ease-in-out ${
-          isOpen ? 'max-h-40' : 'max-h-0'
+          isOpen ? 'max-h-96' : 'max-h-0'
         }`}
       >
         <p className="pb-5 text-sm text-sandstone-dim leading-relaxed pr-8">{faq.a}</p>
@@ -32,7 +32,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0)
 
   return (
-    <section id="faq" className="bg-basalt py-20">
+    <section id="faq" className="bg-basalt py-12 sm:py-20">
       <div className="max-w-2xl mx-auto px-6">
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">Good to know</p>

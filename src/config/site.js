@@ -1,17 +1,17 @@
 // Edit this one file to rebrand the entire site: name, contact info, address.
-const RAW_PHONE = '+917020356310' // <-- replace with real number, country code first
-const WHATSAPP_NUMBER = '917020356310' // <-- same number, digits only, no +
+const RAW_PHONE = '+917756880105' // <-- replace with real number, country code first
+const WHATSAPP_NUMBER = '917756880105' // <-- same number, digits only, no +
 
 export const site = {
   name: 'Vaibhav Cabs',
   tagline: 'Wherever the road leads in Sambhajinagar.',
   city: 'Chhatrapati Sambhajinagar',
   cityShort: 'CSN',
-  phoneDisplay: '+91 70203 56310',
+  phoneDisplay: '+91 77568 80105',
   phoneRaw: RAW_PHONE,
-  email: 'enquiry@Vaibhavcabs.in',
+  email: 'vaibhavtours09@gmail.com',
   whatsappNumber: WHATSAPP_NUMBER,
-  address: 'N-11, Chhatrapati Sambhajinagar, Maharashtra 431003',
+  address: 'Chhatrapati Sambhajinagar, Maharashtra 431003',
   hours: 'Available 24x7, all days',
   social: {
     instagram: '#',

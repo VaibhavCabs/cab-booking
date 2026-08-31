@@ -8,14 +8,7 @@ export default function Footer() {
         <div>
           <p className="font-display text-xl font-semibold text-sandstone">{site.name}</p>
           <p className="mt-3 text-sm text-sandstone-dim leading-relaxed">{site.tagline}</p>
-          <div className="mt-4 flex gap-3">
-            <a href={site.social.instagram} className="text-sandstone-dim hover:text-terracotta-light transition-colors" aria-label="Instagram">
-              <Instagram size={18} />
-            </a>
-            <a href={site.social.facebook} className="text-sandstone-dim hover:text-terracotta-light transition-colors" aria-label="Facebook">
-              <Facebook size={18} />
-            </a>
-          </div>
+          
         </div>
 
         <div>

@@ -2,17 +2,17 @@ import { BadgeIndianRupee, Clock4, ShieldCheck, Sparkles, MapPinned, Wallet } fr
 import Reveal from './Reveal'
 
 const points = [
-  { icon: BadgeIndianRupee, title: 'Transparent fares', text: 'Per-km pricing shared upfront — no hidden charges at drop-off.' },
+  { icon: BadgeIndianRupee, title: 'Transparent fares', text: 'Per-km pricing shared upfront — no hidden charges at the end of the trip.' },
   { icon: Clock4, title: '24x7 availability', text: 'Early flights, late trains or last-minute plans — we are on call.' },
   { icon: ShieldCheck, title: 'Verified drivers', text: 'Experienced, background-checked drivers who know the local routes.' },
   { icon: Sparkles, title: 'Clean, maintained cabs', text: 'Sanitised vehicles serviced regularly for a comfortable ride.' },
   { icon: MapPinned, title: 'Local & outstation', text: 'From a city errand to a multi-day pilgrimage circuit.' },
-  { icon: Wallet, title: 'Easy payments', text: 'Cash, UPI or card — whatever works for you.' },
+  { icon: Wallet, title: 'Easy payments', text: 'Cash or UPI  — whatever works for you.' },
 ]
 
 export default function WhyChooseUs() {
   return (
-    <section id="why-us" className="bg-basalt-light py-20">
+    <section id="why-us" className="bg-basalt-light py-12 sm:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">Why ride with us</p>
