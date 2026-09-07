@@ -10,7 +10,7 @@ export default function Destinations() {
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">Popular destinations</p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-sandstone max-w-lg">
-            The sights {site.cityShort} is known for, all within reach.
+            The sights near by {site.cityShort}, all within reach.
           </h2>
         </Reveal>
 
