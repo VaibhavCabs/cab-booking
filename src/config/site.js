@@ -8,6 +8,7 @@ export const site = {
   city: 'Chhatrapati Sambhajinagar',
   cityShort: 'CSN',
   phoneDisplay: '+91 77568 80105',
+  phoneDisplay2: '+91 74980 84653',
   phoneRaw: RAW_PHONE,
   email: 'vaibhavtours09@gmail.com',
   whatsappNumber: WHATSAPP_NUMBER,

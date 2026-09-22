@@ -69,6 +69,9 @@ export default function EnquiryForm() {
             <a href={telLink()} className="flex items-center gap-3 p-3.5 rounded border border-white/15 text-sandstone font-semibold hover:border-terracotta transition-colors">
               <Phone size={18} /> {site.phoneDisplay}
             </a>
+            <a href={`tel:+917498084653`} className="flex items-center gap-3 p-3.5 rounded border border-white/15 text-sandstone font-semibold hover:border-terracotta transition-colors">
+              <Phone size={18} /> {site.phoneDisplay2}
+            </a>
           </div>
         </Reveal>
 

@@ -15,6 +15,7 @@ export default function Footer() {
           <p className="eyebrow text-gold mb-3">Contact</p>
           <ul className="space-y-2.5 text-sm text-sandstone-dim">
             <li className="flex items-start gap-2"><Phone size={15} className="mt-0.5" /> <a href={telLink()} className="hover:text-sandstone transition-colors">{site.phoneDisplay}</a></li>
+            <li className="flex items-start gap-2"><Phone size={15} className="mt-0.5 flex-shrink-0" /> <a href={`tel:+917498084653`} className="hover:text-sandstone transition-colors">{site.phoneDisplay2}</a></li>
             <li className="flex items-start gap-2"><Mail size={15} className="mt-0.5" /> <a href={mailLink()} className="hover:text-sandstone transition-colors">{site.email}</a></li>
             <li className="flex items-start gap-2"><MapPin size={15} className="mt-0.5 flex-shrink-0" /> {site.address}</li>
           </ul>

@@ -10,6 +10,9 @@ export default function TopBar() {
           <a href={telLink()} className="flex items-center gap-1.5 hover:text-sandstone transition-colors">
             <Phone size={13} /> {site.phoneDisplay}
           </a>
+          <a href={`tel:+917498084653`} className="flex items-center gap-1.5 hover:text-sandstone transition-colors">
+            <Phone size={13} /> {site.phoneDisplay2}
+          </a>
           <a href={mailLink('Cab booking enquiry')} className="flex items-center gap-1.5 hover:text-sandstone transition-colors">
             <Mail size={13} /> {site.email}
           </a>
