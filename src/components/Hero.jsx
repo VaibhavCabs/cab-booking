@@ -13,12 +13,12 @@ export default function Hero() {
     <section id="top" className="relative overflow-hidden bg-basalt bg-grain">
       <div className="max-w-6xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-28 grid lg:grid-cols-2 gap-12 items-center">
         <div className="animate-fadeUp">
-          <p className="eyebrow text-terracotta-light mb-4">Cab & Taxi Service · {site.city}</p>
+          <p className="eyebrow text-terracotta-light mb-4">Cab & Taxi Service · {site.city} (Aurangabad)</p>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] font-semibold text-sandstone">
             {site.tagline}
           </h1>
           <p className="mt-5 text-sandstone-dim text-base sm:text-lg max-w-md">
-            Local rides, outstation round trips and airport transfers across {site.cityShort} —
+            Local rides, outstation round trips and airport transfers across {site.cityShort} (Aurangabad) —
             booked in a message, confirmed in minutes.
           </p>
 

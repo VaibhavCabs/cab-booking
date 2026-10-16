@@ -10,7 +10,7 @@ export default function Destinations() {
         <Reveal>
           <p className="eyebrow text-terracotta-light mb-3">Popular destinations</p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-sandstone max-w-lg">
-            The sights near by {site.cityShort}, all within reach.
+            The sights near by {site.cityShort} (Aurangabad), all within reach.
           </h2>
         </Reveal>
 
@@ -21,7 +21,9 @@ export default function Destinations() {
                 <div className="relative w-full aspect-[16/10] sm:aspect-[4/3] overflow-hidden bg-basalt-light">
                   <img
                     src={d.image}
-                    alt={d.name}
+                    alt={`${d.name} sightseeing destination near Chhatrapati Sambhajinagar (Aurangabad), Maharashtra`}
+                    width="800"
+                    height="500"
                     loading="lazy"
                     decoding="async"
                     className="absolute inset-0 w-full h-full object-cover"

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1B1815"/>
+  <path d="M0 500C230 420 370 570 620 470S1000 390 1200 470V630H0Z" fill="#29221d"/>
+  <circle cx="1040" cy="120" r="210" fill="#9a5038" opacity=".22"/>
+  <text x="90" y="220" fill="#d7a244" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="5">VAIBHAV CABS</text>
+  <text x="90" y="315" fill="#f3e8d2" font-family="Georgia,serif" font-size="62" font-weight="700">Cab service in</text>
+  <text x="90" y="390" fill="#f3e8d2" font-family="Georgia,serif" font-size="62" font-weight="700">Sambhajinagar</text>
+  <text x="92" y="450" fill="#c9b9a5" font-family="Arial,sans-serif" font-size="26">Local • Airport • Outstation • 24x7</text>
+  <path d="M900 470h170a22 22 0 0 0 22-22v-32H878v32a22 22 0 0 0 22 22Z" fill="#9a5038"/>
+  <circle cx="920" cy="470" r="28" fill="#151210"/><circle cx="1035" cy="470" r="28" fill="#151210"/>
+  <path d="M902 416l30-60h86l30 60Z" fill="#b6664b"/>
+</svg>

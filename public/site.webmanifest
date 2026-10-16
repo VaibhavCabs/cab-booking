@@ -1,0 +1,17 @@
+{
+  "name": "Vaibhav Cabs",
+  "short_name": "Vaibhav Cabs",
+  "description": "Local, airport and outstation cab service in Chhatrapati Sambhajinagar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B1815",
+  "theme_color": "#1B1815",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
